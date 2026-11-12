@@ -19,7 +19,436 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+MASTER DEVELOPMENT PROMPT
 
+MEDIVISION 3D AI — COMPLETE MEDICAL INTELLIGENCE PLATFORM
+
+Act as a senior software architect, full-stack developer, AI engineer, medical technology specialist, UI/UX designer and Android application developer.
+
+Build a complete, professional, production-ready medical education and healthcare management platform named:
+
+MEDIVISION 3D AI
+
+Do not create just a landing page or static demo. Build a fully functional application with working navigation, database architecture, search, user authentication, medical information modules, 3D visualization, multilingual interface and Android application packaging.
+
+1. PLATFORM AND DEVICE SUPPORT
+
+Build the application for:
+
+* Android smartphones and tablets.
+* iPad and iPad Pro.
+* Desktop browsers.
+* Responsive mobile web application.
+
+Use the existing React, TypeScript, Vite and Three.js project wherever possible. Preserve existing working features and fix existing build errors instead of unnecessarily rebuilding everything.
+
+Prepare Android packaging using Capacitor or another reliable compatible solution.
+
+2. FIVE LANGUAGES
+
+Provide complete interface localization in:
+
+1. English
+2. Hindi
+3. Gujarati
+4. Marathi
+5. Urdu
+
+Include:
+
+* Language selection.
+* Proper Urdu right-to-left layout.
+* Correct fonts and text rendering.
+* Localized navigation, buttons, forms, reports and medical information.
+* Easy language switching without losing user data.
+
+3. COMPLETE MEDICINE DATABASE
+
+Create a searchable medicine database covering:
+
+A. Allopathic medicines
+B. Ayurvedic medicines
+C. Unani medicines
+D. Herbal medicines
+E. Traditional medicines
+F. Nutritional supplements
+
+For every medicine provide, where verified:
+
+* Generic name.
+* Brand names.
+* Composition.
+* Active ingredients.
+* Available dosage forms.
+* Approved indications.
+* Contraindications.
+* Known side effects.
+* Drug interactions.
+* Safety warnings.
+* Storage information.
+* Reliable references.
+* Regulatory approval information.
+
+Never invent medicines, ingredients, approvals, dosages or medical references.
+
+Include medicine comparison and category filters.
+
+4. AYURVEDIC MEDICAL LIBRARY
+
+Include educational references to:
+
+* Charaka Samhita.
+* Sushruta Samhita.
+* Ashtanga Hridaya.
+* Ayurvedic herbs.
+* Traditional formulations.
+* Medicinal plants.
+* Preparation methods.
+* Traditional uses.
+* Modern research and safety information.
+
+Clearly distinguish traditional claims from clinically established evidence.
+
+5. UNANI AND HAKIMI MEDICINE
+
+Create a dedicated Unani and traditional Hakimi library.
+
+Include:
+
+* Ibn Sina’s Al-Qanun fi al-Tibb.
+* Al-Razi’s medical writings.
+* Traditional Unani formulations.
+* Mufradat (single ingredients).
+* Murakkabat (compound formulations).
+* Traditional herbal preparations.
+* Historical Hakimi remedies.
+* Ingredient properties and references.
+
+Provide Urdu, Hindi and English explanations.
+
+6. TIBB-E-NABAWI LIBRARY
+
+Create a separate module for Tibb-e-Nabawi.
+
+Include educational references concerning:
+
+* Honey.
+* Black seed (Kalonji).
+* Dates and Ajwa.
+* Olive oil.
+* Zamzam water.
+* Other reliably sourced traditional references.
+
+For each topic provide:
+
+* Original reference where available.
+* Translation.
+* Traditional context.
+* Modern scientific research.
+* Safety considerations.
+
+Clearly distinguish religious texts, traditional interpretations and scientific evidence. Never claim that a traditional remedy cures a disease without reliable evidence.
+
+7. INTERACTIVE 3D HUMAN ANATOMY
+
+Build a professional interactive 3D human anatomy module using Three.js.
+
+Include:
+
+* Brain.
+* Heart.
+* Lungs.
+* Liver.
+* Kidneys.
+* Stomach.
+* Intestines.
+* Bones.
+* Muscles.
+* Nervous system.
+* Circulatory system.
+* Digestive system.
+* Respiratory system.
+
+Features:
+
+* Rotate 3D models.
+* Zoom in and out.
+* Select individual organs.
+* Display organ names.
+* Show educational descriptions.
+* Show organ functions.
+* Show anatomical labels.
+* Provide high-quality 3D models where available.
+
+Do not use empty placeholders pretending to be working 3D models.
+
+8. 3D MEDICAL ANIMATION AND VIDEO
+
+Create a dedicated medical animation section.
+
+Include:
+
+* Heart pumping animation.
+* Blood circulation animation.
+* Human breathing animation.
+* Brain and nervous system animation.
+* Digestive process animation.
+* Kidney function animation.
+* Disease education animations.
+* Medical procedure educational animations.
+
+Allow users to:
+
+* Play.
+* Pause.
+* Replay.
+* Adjust playback speed.
+* View explanations.
+* Access subtitles.
+
+Use genuine working animations or properly integrated video assets, not fake video buttons.
+
+9. AI MEDICAL ASSISTANT
+
+Build an AI-powered medical information assistant.
+
+Users should be able to ask questions by:
+
+* Typing.
+* Voice input.
+* Uploading medical reports.
+* Asking about medicines.
+* Asking about symptoms.
+* Asking about anatomy.
+* Asking about traditional medical references.
+
+The assistant should:
+
+* Respond in the selected language.
+* Explain medical terminology.
+* Summarize uploaded reports.
+* Provide evidence-based educational information.
+* Identify potential warning signs.
+* Recommend professional medical assessment when appropriate.
+
+Do not automatically diagnose patients or prescribe medicines. Do not recommend stopping prescribed medication.
+
+Integrate Gemini through secure server-side API handling. Never expose API keys in frontend source code.
+
+10. VOICE COMMAND AND FUTURE CUSTOMER REQUESTS
+
+Create an advanced voice command system.
+
+Example commands:
+
+* “Show me the human heart in 3D.”
+* “Find information about this medicine.”
+* “Compare these two medicines.”
+* “Explain this medical report.”
+* “Show traditional Unani references.”
+* “Generate a patient report.”
+
+Important future feature:
+
+When a customer tells the software what they need, the AI should understand the request, identify the relevant application functions, collect necessary information and generate the appropriate report or educational output.
+
+Provide confirmation before saving, exporting, sharing or changing patient records.
+
+11. PATIENT MANAGEMENT SYSTEM
+
+Create a patient management module with:
+
+* Patient registration.
+* Patient profile.
+* Medical history.
+* Allergies.
+* Current medication.
+* Previous prescriptions.
+* Clinical notes.
+* Laboratory reports.
+* Follow-up dates.
+* Appointment records.
+
+Include secure authentication and role-based access for doctors, administrators and patients.
+
+Protect personal medical information and implement appropriate privacy and security safeguards.
+
+Use sample data only in demonstration mode. Never expose real patient records in public demo screens.
+
+12. MEDICAL REPORT GENERATOR
+
+Create a professional report generator.
+
+Allow:
+
+* Patient details.
+* Symptoms and medical history.
+* Doctor observations.
+* Laboratory results.
+* Medicine history.
+* Follow-up notes.
+* Medical reference notes.
+
+Generate:
+
+* Professional PDF reports.
+* Printable documents.
+* Patient summaries.
+* Medicine comparison reports.
+* Medical education reports.
+
+Reports must clearly identify AI-generated content and require clinician review where clinically relevant.
+
+13. ADMINISTRATOR DASHBOARD
+
+Include:
+
+* User management.
+* Doctor management.
+* Patient management.
+* Medicine database management.
+* Traditional medicine reference management.
+* Language management.
+* Medical content verification.
+* Access permissions.
+* Audit logs.
+* Backup and restore.
+
+14. DESIGN AND USER EXPERIENCE
+
+Create a premium medical technology interface.
+
+Design requirements:
+
+* Professional medical dashboard.
+* Elegant dark and light themes.
+* Modern cards.
+* Smooth transitions.
+* Attractive typography.
+* Clear icons.
+* Responsive navigation.
+* Accessible buttons and controls.
+* Tablet-friendly layout.
+* Mobile-friendly layout.
+
+The application should look like a professional international medical technology product.
+
+15. DATABASE AND BACKEND
+
+Implement a proper application architecture.
+
+Include:
+
+* Secure user authentication.
+* Database schema.
+* Medicine records.
+* Patient records.
+* Medical reference records.
+* User roles.
+* Report storage.
+* API integration.
+* Error handling.
+* Input validation.
+* Backup strategy.
+
+Use environment variables for secrets and API keys.
+
+Do not store sensitive medical information in insecure public storage.
+
+16. ANDROID APK BUILD
+
+This is a mandatory requirement.
+
+Prepare the project for an installable Android APK.
+
+Requirements:
+
+* Configure Capacitor correctly.
+* Configure Android project files.
+* Configure AndroidManifest.xml.
+* Configure Gradle.
+* Configure application ID.
+* Configure application name as MEDIVISION 3D AI.
+* Add application icon and splash screen.
+* Support Android permissions only when required.
+* Configure release build.
+* Prepare GitHub Actions workflow.
+* Build a debug APK.
+* Prepare signed release APK instructions.
+
+Create a GitHub Actions workflow that:
+
+1. Checks out the repository.
+2. Installs Node.js.
+3. Installs dependencies.
+4. Runs TypeScript checks.
+5. Runs production build.
+6. Synchronizes Capacitor Android files.
+7. Configures Java and Gradle.
+8. Builds the Android APK.
+9. Uploads the APK as a downloadable GitHub Actions artifact.
+
+Fix all missing files, incorrect imports, CSS paths and dependency errors.
+
+In particular, ensure src/main.tsx imports an existing src/index.css file.
+
+Do not declare the APK ready unless the build actually succeeds.
+
+17. TESTING AND QUALITY CONTROL
+
+Before completion:
+
+* Run npm install.
+* Run TypeScript checks.
+* Run lint if configured.
+* Run npm run build.
+* Test all navigation.
+* Test all five languages.
+* Test medicine search.
+* Test 3D anatomy.
+* Test report generation.
+* Test responsive layouts.
+* Test Android build.
+
+Fix all build errors before declaring completion.
+
+18. FINAL DELIVERABLES
+
+Provide:
+
+1. Complete working source code.
+2. Complete React application.
+3. Functional 3D anatomy module.
+4. Medical knowledge libraries.
+5. Five-language interface.
+6. AI assistant integration.
+7. Database and backend configuration.
+8. Android project.
+9. GitHub Actions workflow.
+10. Downloadable APK artifact after successful build.
+11. Setup and installation instructions.
+
+FINAL INSTRUCTION
+
+Start working on the existing MEDIVISION 3D AI project immediately.
+
+First inspect the entire existing project and its files.
+
+Identify missing files and build errors.
+
+Preserve working components and existing data.
+
+Implement the missing features in a structured manner.
+
+Do not merely explain how to build the application. Actually create and modify the project files.
+
+Do not stop after generating a design or a prototype.
+
+The primary final objective is a functional MEDIVISION 3D AI application with a successfully built, installable Android APK.
+
+If any external API, paid service, medical dataset or credential is required, identify it clearly and provide a working integration structure without fabricating successful connections.
+
+Begin with project inspection and build-error correction, then continue through implementation and Android APK generation.
       - name: Setup Java
         uses: actions/setup-java@v4
         with:
